@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css"/>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion()
+    .css("background-color","black");
+  } );
+  </script>
+ <style>
+    .ui-accordion .ui-accordion-header {
+       
+        background-color: black;
+        color: white;
+    }
+ </style> 
+</head>
+<body>
+ 
+<div id="accordion" style="border: 2px solid white;">
+  <h3>Basic Information</h3>
+  <div style="background-color: rgb(152, 189, 204);">
+    <p>
+    My Name is Pritee Yogi,And I am currently in my third year pursuing a degree in Information Technology at Silver Oak University.I am currently working on my Technical and Soft Skills.I am excited about the opportunity to apply my academic knowledge in a practical setting and contribute to a real world project as a intern &#128515;.
+    </p>
+  </div>
+  <h3>Technical Skills</h3>
+  <div style="background-color: rgb(152, 189, 204);">
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>JQUERY</li>
+        <li>JQUERY</li>
+        <li>PHP</li>
+      </ul>
+  </div>
+  <h3>Soft Skills</h3>
+  <div style="background-color: rgb(152, 189, 204);">
+    <ul>
+      <li>Active listener</li>
+      <li>Team Work</li>
+      <li>Communication</li>
+    </ul>
+  </div>
+  <h3  style="background-color: black">Projects</h3>
+  <div style="background-color: rgb(152, 189, 204);">
+   <ul>
+    <li>Portfolio project</li>
+    <li>Continue</li>
+   </ul>
+  </div>
+</div>
+</body>
+</html>
